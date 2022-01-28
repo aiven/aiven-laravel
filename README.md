@@ -55,7 +55,7 @@ It's useful to power things down when you're not using them so that you aren't b
 
 ## Datastore-specific setup
 
-### MySQL and PostgreSQL
+### MySQL and PostgreSQL®
 
 PHP is on good terms with relational databases, and Laravel makes this very straight forward.
 
@@ -63,11 +63,11 @@ PHP is on good terms with relational databases, and Laravel makes this very stra
 
 2. Paste the output of the `aiven:getconfig` command. For both MySQL and PostgreSQL, this is a `DATABASE_URL`. For PostgreSQL, we need to tell Laravel we want to use Postgres (MySQL is the default) so the command also outputs `DB_CONNECTION=pgsql` and this should also be included.
 
-### Redis
+### Redis™*
 
-Redis needs some extra dependencies (see [Laravel Redis docs](https://laravel.com/docs/8.x/redis)), and then you can set the `REDIS_URL` to the value returned by `aiven:getconfig`.
+Redis™ needs some extra dependencies (see [Laravel Redis docs](https://laravel.com/docs/8.x/redis)), and then you can set the `REDIS_URL` to the value returned by `aiven:getconfig`.
 
-### OpenSearch with Laravel Scout
+### OpenSearch® with Laravel Scout
 
 This uses some Elasticsearch libraries because the OpenSearch project is a fork so they are reasonably compatible.
 
@@ -102,3 +102,9 @@ If you add the config to your environment and still can't connect, check that yo
 ## Get in touch
 
 Questions? Problems? Open an issue and let us know.
+
+## Trademarks
+MySQL, OpenSearch, PostgreSQL and Laravel are trademarks and property of their respective owners. All product and service names used in this website are for identification purposes only and do not imply endorsement.
+
+/* Redis is a trademark of Redis Ltd. Any rights therein are reserved to Redis Ltd. Any use by Aiven Oy is for referential purposes only and does not indicate any sponsorship, endorsement or affiliation between Redis and Aiven Oy.
+
